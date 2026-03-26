@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-        [x-cloak]{
-            display: none;
-        }
-    </style>
+    <style>[x-cloak]{display: none;}</style>
     <title>Penghitung rata-rata rubik</title>
 </head>
 <body>
@@ -63,8 +59,7 @@
             <button class="my-1 relative border border-black border-2 rounded-md hover:bg-gray-200 shadow-md"
             :class="$store.modeGelap.on && 'border-white hover:bg-gray-900'"
             @click="$store.rataRata.rataRataMothree(waktuSatu, waktuDua, waktuTiga)">Submit</button>
-            <h2 class="my-auto text-xl font-bold block" 
-            x-text="$store.rataRata.hasilMoThree"></h2>
+            <h2 class="my-auto text-xl font-bold block" x-text="$store.rataRata.hasilMoThree"></h2>
         </div>
     </div>
     <script src="main.js"></script>
