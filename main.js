@@ -20,6 +20,5 @@ document.addEventListener('alpine:init', () => {
 		//menambahkan ke-3 waktu lalu dibagi 3
                 rataRataMothree(a,b,c){ this.hasilMoThree = (parseFloat(a) + parseFloat(b) + parseFloat(c)) / 3; },
             }),
-            Alpine.store('modeGelap', { on: false, toggle() {this.on = !this.on} 
-	})
+            Alpine.store( 'modeGelap', { on: false, toggle() {this.on = !this.on} })
     })
