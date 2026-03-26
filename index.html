@@ -55,7 +55,7 @@
             <h1 class="font-bold text-lg">Mo3</h1>
             <input class="border-2 border-gray-800 rounded-lg" type="text" x-model="waktuSatu" placeholder="Waktu Pertama">
             <input class="border-2 border-gray-800 rounded-lg" type="text" x-model="waktuDua" placeholder="Waktu Kedua">
-            <input class="border-2 border-gray-800 rounded-lg" type="text" x-model="waktuTiga" placeholder="Waktu Ketiga">
+            <input class="border-md border-gray-800 rounded-lg" type="text" x-model="waktuTiga" placeholder="Waktu Ketiga">
             <button class="my-1 relative border border-black border-2 rounded-md hover:bg-gray-200 shadow-md"
             :class="$store.modeGelap.on && 'border-white hover:bg-gray-900'"
             @click="$store.rataRata.rataRataMothree(waktuSatu, waktuDua, waktuTiga)">Submit</button>
