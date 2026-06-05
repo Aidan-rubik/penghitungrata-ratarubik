@@ -24,7 +24,7 @@
         <button class="rounded-xl border-4 text-lg bg-blue-200 text-black p-1.5 font-bold hover:bg-blue-500 grow"
         :class="$store.modeGelap.on && 'bg-blue-800 text-white'"
         @click="$store.modeGelap.toggle()"
-        x-text="$store.modeGelap.on ? 'Mode Terang' : 'Mode Gelap'"></button>
+        x-text="$store.modeGelap.on ? 'Mode Gelap' : 'Mode Terang'"></button>
     </nav>
     <div class="flex justify-center" :class="$store.modeGelap.on && 'bg-black'">
         <button class="text-medium border-3 rounded inline bg-gray-50 hover:bg-gray-300 p-1 my-2 mx-1 font-bold"
